@@ -1,0 +1,18 @@
+{{input value=upc_id class="upcInput" enter='lookupUpc' placeholder='Enter UPC'}}
+
+<button {{action 'lookupUpc' }}>
+  {{#if isLoading}}
+    Loading...
+  {{else}}
+    Lookup
+  {{/if}}
+</button>
+
+
+<div class="upc-table">
+  {{#each model as |upc|}}
+    {{upc-price-card upc=upc}}
+  {{/each}}
+</div>
+
+{{outlet}}

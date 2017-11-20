@@ -1,0 +1,12 @@
+{{outlet}}
+[${{model.price}}] {{model.name}}
+
+<br>
+
+{{#link-to 'upc' tagName='button'}}Back To Search{{/link-to}}
+
+{{model}}
+{{#each upc as |model|}}
+  {{upc.name}}
+  {{upc.price}}
+{{/each}}
