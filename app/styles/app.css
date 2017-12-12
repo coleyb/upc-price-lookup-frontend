@@ -1,10 +1,16 @@
+/*TODO: Use SASS*/
 .ember-application {
-  background: floralwhite;
+  background: darkgrey;
+  font-family: helvetica;
+  font-weight: 200;
+  margin: 0px;
+}
+
+h1 {
+  font-weight: 200;
 }
 
 .ember-view {
-  font-family: helvetica;
-  font-weight: 200;
   text-align: center;
 }
 
@@ -12,10 +18,15 @@
   width: 150px;
   font-size: 18px;
   text-align: left;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
 }
 
 button {
   font-size: 18px;
+  border-radius: 5px;
+  height: 30px;
 }
 
 .upc-table {

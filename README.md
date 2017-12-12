@@ -1,11 +1,6 @@
 # upc-price-lookup-frontend
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
-
-## Prerequisites
-
-You will need the following things properly installed on your computer.
+This is an ember application which communicates with a Rails API to lookup UPC information via Walmarts API. You can view a demo of this app at `https://immense-dusk-51223.herokuapp.com/upc`.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
